@@ -25,6 +25,8 @@ UIViewController
 
     private func formatAlgorithm() -> Void
     {
+        let title : String = "How to make it in the town"
+        
         let stepOne : String = "First I smell the sound"
         let stepTwo : String = "Then you turn yourself right around"
         let stepThree : String = "And then you do the brown"
@@ -61,7 +63,7 @@ UIViewController
     
     private func createOutlineStyle() -> NSParagraphStyle
     {
-        let outlineStyle : NSMutablePargraphStyle = NSMutablePargraphStyle()
+        let outlineStyle : NSMutableParagraphStyle = NSMutableParagraphStyle()
         outlineStyle.alignment = .left
         outlineStyle.defaultTabInterval = 15
         outlineStyle.firstLineHeadIndent = 20
